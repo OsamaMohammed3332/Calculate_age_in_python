@@ -1,2 +1,2 @@
 # Projects
-#2 My projects
+## My projects
