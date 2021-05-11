@@ -8,8 +8,10 @@ while True:
         if choice3 == "1":
             def vd():
                 stream = video.streams
+                n = 1
                 for q in stream:
-                    print(q)
+                    print("(", n, ")", q)
+                    n += 1
                 choice1 = int(input("enter your choice:"))
 
                 if choice1 == 1:
@@ -25,8 +27,10 @@ while True:
         elif choice3 == "2":
             def ad():
                 au_stream = video.audiostreams
+                n1 = 1
                 for a in au_stream:
-                    print(a)
+                    print("(", n1, ")", a)
+                    n1 += 1
                 choice2 = int(input("enter your choice:"))
 
                 if choice2 == 1:
